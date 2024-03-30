@@ -55,42 +55,54 @@ $(function() {
 	<h1>Spatial Transcriptomic Atlas of the Chick Retina Differing in Response to Myopia.</h1>
     
     <p>
-		Myopia is a significant public health issue in the world. Early risk warning is crucial for myopia prevention and control. Clinical research has shown that the age of onset of myopia is closely related to its severity. 
-	    In other words, the younger the age of onset, the longer the duration of myopia progression, the faster the progression, and the higher the degree of myopia in adulthood. Therefore, the key to myopia prevention and control 
-	    lies in early risk warning, accurate and efficient screening, and timely and appropriate intervention. 
-	        During the process of myopia modeling, different cell types, subtypes, and structural regions of the retina may have different stress responses to myopia induction. This project aims to compare the stress levels 
-	    induced by myopia in different cell types, subtypes, and structural regions of the retina using spatial transcriptomics and single-cell transcriptomics technologies. By comparing the differences in gene expression and 
-	    cell interactions at the cellular and spatial levels between the myopia group and the control group, we aim to explore which cell types and regions of the retina are worth focusing on in myopia development. 
-	    Based on this, new early intervention and treatment strategies may be proposed, providing theoretical basis and treatment targets for the prevention and precise treatment of myopia. Additionally, to reveal the limitations of 
-	    the chicken myopia model, this project investigates the spatial expression characteristics of human myopia-related pathogenic genes in the chicken retina, providing a theoretical basis for using the chicken model in myopia treatment.
+          Myopia is a significant public health concern in China, where early risk warning plays a crucial role in its prevention and control. Studies have shown a close relationship between the age of onset of myopia and its severity: the younger the age at which myopia begins, the longer its progression, the faster its rate, and the higher the final degree of myopia in adulthood. Therefore, the key lies in early risk warning, precise and efficient screening, and timely and appropriate intervention. The retina, as the primary responder to myopia induction, plays an important role in the progression of myopia. Changes in retinal function during the early stages of myopia may differ from those at the onset, and the stress response to myopia induction may vary among different cell types and subtypes, as well as different structural regions of the retina.
+          <p>
+	  This study employs spatial transcriptomics and single-cell transcriptomics to compare changes across different cell types and subtypes from the early to the late stages of myopia. By analyzing the differences in gene expression and cell interactions between myopic and normal retinas at the cellular and spatial levels, we found that the retinal phototransduction pathway tends to be upregulated in the early stages of myopia but shows the opposite trend in the later stages. Moreover, photoreceptor cells and subtypes of cones that receive red light may be the most affected cell types during the progression of myopia. Comparing the effects of myopia on different retinal structural regions revealed that the central area of the retina might be the most affected region. These findings provide a theoretical basis for proposing new early intervention treatment strategies and contribute to the early prevention and precise treatment of myopia. Additionally, this study explores the spatial expression characteristics of human myopia-related pathogenic genes in the chicken retina, providing theoretical support for the use of chicken models in myopia treatment research.
+          This revised abstract maintains the scientific integrity and professionalism of the original text while enhancing the coherence and logical flow of the content in English.
     </p>
 
     <h2> Technical Route </h2>
 	</p>
 	<center><img src="images/Retina1.png" alt="La2Ti2O7" height="400" align="middle"/></center>
 	<p>
-		Data Analysis Includes:
-		<p>
-		1.Clustering and Classification with Seurat
-		<p>
-		2.Cell-type deconvolution with Cell2loc
-		<p>
-		3.Differential gene expression (DGE) analysis with Deseq2
-		<p>
-		4.Cellular Communication Analysis with CellChat and NeuronChat
-		<p>
-		5.Cell Trajectory Analysis with Scanpy and Monocle2
-		<p>
-		6.Enrichment Analysis with GO and KEGG
-		<p>
-		7.Calculating module scores with AddModuleScore
-		<p>
-		8.Visualization
-		<p>
-		9.else(Progressing……)
-		<p>
 
+    <h2>Data Quality Control of ScRNA-Seq (15 samples) </h2>
+        </p>
+	<center><img src="images/SingleCellData.png" alt="La2Ti2O7" height="400" align="middle"/></center>
+			
+        <p>
+		
+    <h2>Data Quality Control of StRNA-Seq (9 samples) </h2>
+        </p>
+	<center><img src="images/SpatialData.png" alt="La2Ti2O7" height="400" align="middle"/></center>
+			
+        <p>
+		</li>
+
+    <h2>Altas of Chick Retina </h2>
+        </p>
+	<center><img src="images/RetinaAltas.png" alt="La2Ti2O7" height="400" align="middle"/></center>
+			
+        <p>
+		</li>
+
+    <h2>Changes in Retina Function in Pre-myopic and Myopia </h2>
 	</p>
+	In my data, it is observed that within the photoreceptor cells, the Visual Perception pathway and the Phototransduction pathway are upregulated in the pre-myopic stage, while they are downregulated in the myopic stage. This suggests a differential regulation of these pathways during the progression of myopia.
+        <p>
+		
+        </p>
+        <center><img src="images/Visual.png" alt="La2Ti2O7" height="400" align="middle"/></center>		
+        <p>
+		
+	</p>
+	By comparing with the control group’s receptor intensity, it was found that in the retinal bipolar cells, the ON pathway is upregulated in the pre-myopic stage and downregulated in the myopic stage. Conversely, the OFF pathway shows the opposite trend. My hypothesis is that the ON pathway inhibits the onset of myopia, while the OFF pathway promotes the development of myopia.
+	<p>
+        </p>
+        <center><img src="images/OnOff.png" alt="La2Ti2O7" height="400" align="middle"/></center>		
+        <p>
+       </li>
+
 
 
 	<h2>Publications</h2>
